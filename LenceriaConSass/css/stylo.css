@@ -1,0 +1,51 @@
+@charset "UTF-8";
+button {
+  background-color: pink;
+}
+
+tr a {
+  color: pink;
+}
+tr a:hover {
+  color: red;
+}
+
+a {
+  font-family: comic sans;
+}
+
+/*Sass nos permite crear archivos parciales para cada compononente de cada seccion,variables, fuentes, etc
+tener bien organizado el código, se crean archivos nuevos con guiones bajos*/
+/*Nesting o anidamiento*/
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.contenedor .li {
+  display: inline-flex;
+}
+.contenedor .bloque2 a {
+  max-width: 100%;
+}
+.contenedor ul li {
+  display: inline;
+}
+
+#header {
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input {
+  margin-right: 400px;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=stylo.css.map */

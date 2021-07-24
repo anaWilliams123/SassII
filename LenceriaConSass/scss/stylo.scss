@@ -1,0 +1,46 @@
+@import "listas"; 
+@import "variables";
+
+
+
+
+/*Sass nos permite crear archivos parciales para cada compononente de cada seccion,variables, fuentes, etc
+tener bien organizado el código, se crean archivos nuevos con guiones bajos*/
+
+/*Nesting o anidamiento*/
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+   .li {
+       display: inline-flex;
+
+   }.bloque2 a{
+    max-width: 100%;
+   }ul li{
+       display: inline;
+   }
+}
+ #header{
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+   
+input{
+    margin-right: 400px;
+   
+}
+button{
+    img{
+        width: 20px;
+        height: 20px;
+    }
+ 
+}
+
+ 

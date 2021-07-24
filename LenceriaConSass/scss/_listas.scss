@@ -1,0 +1,19 @@
+$color :
+red,
+blue,
+yellow,
+pink;
+
+
+button{
+
+    background-color: nth($color,4);
+ 
+}tr{
+    a{ color: nth($color,4);}
+       
+      a:hover {
+          color:nth($color, 1 );
+      }
+     
+}

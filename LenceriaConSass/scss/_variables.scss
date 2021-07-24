@@ -1,0 +1,37 @@
+
+$border: 1px solid pink;
+$font__h1: comic sans;
+$medidaMain: 1000px;
+$color:pink;
+$colorfondo:red;
+
+a{
+    font-family: $font__h1;
+}
+//codicionales
+main{
+     @if $color==blue{
+         color:blue;
+     }@else if $color==red {
+         color:red;
+
+     }@else if $color==pink{
+         color: yellow;
+         background-color:$colorfondo;
+         width: $medidaMain/2;
+         height: ($medidaMain*2)+10000 ;
+     }@else {
+         color:violet;
+     }
+}//mixin
+@mixin aprendiendoMixin($width, $height){
+    background-color: violet;
+    box-shadow: white;
+    height: $height;
+    width: $width;
+
+
+
+}@include aprendiendoMixin(500px,50px ){
+
+}
